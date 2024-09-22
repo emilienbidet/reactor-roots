@@ -47,6 +47,9 @@ export default function Index() {
         onConnect={onConnect}
         fitView
         snapToGrid
+        proOptions={{
+          hideAttribution: true,
+        }}
       >
         <Controls />
         <MiniMap />
